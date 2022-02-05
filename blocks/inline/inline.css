@@ -1,0 +1,17 @@
+.inline {
+  display: inline;
+  margin: 0 18px 0 0;
+}
+
+.inline:last-child {
+  margin: 0 0;
+}
+
+@media screen and (max-width: 727px) {
+
+  .inline {
+    margin: 0 0 32px 0;
+    display: inherit;
+  }
+    
+}
