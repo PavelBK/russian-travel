@@ -1,33 +1,12 @@
 .cover {
   display: flex;
   flex-direction: column;
-  max-width: 1184px;
-  height: 62.5vw;
-  max-height: 720px;
-  margin: 92px auto 0;
-  position: relative;
   justify-content: center;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
+  max-width: 1184px;
+  margin: 92px auto 0;
 }
 
-.cover:before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  background-color: #2a2c2f;
-  opacity: 0.3;
-  transition: opacity 0.5s linear;
-}
 
-.cover:hover:before {
-  opacity: 0.8;
-  cursor: pointer;
-}
 
 @media screen and (max-width: 1023px) {
 
